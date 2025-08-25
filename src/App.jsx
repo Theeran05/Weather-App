@@ -6,7 +6,6 @@ import rain from './assets/rain.png'
 import snow from './assets/snow.jpg'
 import wind from './assets/wind.png'
 import clear from './assets/clear.jpg'
-
 import './app.css'
 import { useState } from 'react'
 import { useEffect } from 'react'
@@ -140,7 +139,7 @@ function App() {
   const handelkeydown = (e) => {
     if (e.key === "Enter") {
       search()
-    } 
+    }
   }
   useEffect(function () {
     search()
